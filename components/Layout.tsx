@@ -1,7 +1,5 @@
-import 'tailwindcss/tailwind.css'
 import Head from "next/head";
 import Image from "next/image";
-
 
 import {Link as Scroll} from 'react-scroll';
 import logo from "../public/logo.png"
@@ -13,7 +11,7 @@ export default function Layout({children, title = "自己紹介"}) {
             <Head>
                 <title>{title}</title>
             </Head>
-            <header className="flex flex-col shadow-sm mb-1 md:mb-0 md:flex-row items-center md:justify-between md:px-3">
+            <header className="flex flex-col mb-1 md:mb-0 md:flex-row items-center md:justify-between md:px-3">
                 <Image src={logo}
                        alt="ロゴ" width={160} height={80} className="object-contain"/>
                 <nav>
@@ -30,4 +28,3 @@ export default function Layout({children, title = "自己紹介"}) {
     )
 }
 
-// space-x-6 md:space-x-8

@@ -6,7 +6,12 @@ import about_1 from "../public/about-1.png"
 import about_2 from "../public/about-2.png"
 import about_3 from "../public/about-3.png"
 
+import value_1 from "../public/value1.png"
+import value_2 from "../public/value2.png"
+import value_3 from "../public/value3.png"
+
 import skill from "../public/skill.png"
+
 
 const ScrollRevealContainer = dynamic(
     import('../components/utils/ScrollRevealContainer'), {ssr: false,});
@@ -40,7 +45,7 @@ export default function Home() {
                     <div className="flex flex-col items-center md:mx-1">
                         <Image src={about_1} alt="趣味" className="object-contain" quality={75}/>
                         <div className="font-bold text-2xl text-t_green my-3">趣味</div>
-                        <p className="items-start px-10 text-xl">
+                        <p className="items-start md:px-10 text-xl">
                             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                         </p>
                     </div>
@@ -48,7 +53,7 @@ export default function Home() {
                     <div className="flex flex-col items-center md:mx-1">
                         <Image src={about_2} alt="好きな食べ物" className="object-contain" quality={75}/>
                         <div className="font-bold text-2xl text-t_green md:my-3">好きな食べ物</div>
-                        <p className="items-start px-10 text-xl">
+                        <p className="items-start md:px-10 text-xl">
                             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                         </p>
                     </div>
@@ -56,7 +61,7 @@ export default function Home() {
                     <div className="flex flex-col items-center md:mx-1">
                         <Image src={about_3} alt="性格" className="object-contain" quality={75}/>
                         <div className="font-bold text-2xl text-t_green md:my-3">性格</div>
-                        <p className="items-start px-10 text-xl">
+                        <p className="items-start md:px-10 text-xl">
                             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                         </p>
                     </div>
@@ -91,7 +96,8 @@ export default function Home() {
 
                                 <div className="flex flex-row items-center">
                                     <div className="inline-block h-4 flex w-full rounded bg-p_green">
-                                        <div style={{width: "70%"}} className="bg-ph_green"></div></div>
+                                        <div style={{width: "70%"}} className="bg-ph_green"></div>
+                                    </div>
                                     <div className="ml-3">70%</div>
                                 </div>
 
@@ -99,7 +105,8 @@ export default function Home() {
 
                                 <div className="flex flex-row items-center">
                                     <div className="inline-block h-4 flex w-full rounded bg-p_green">
-                                        <div style={{width: "70%"}} className="bg-ph_green"></div></div>
+                                        <div style={{width: "70%"}} className="bg-ph_green"></div>
+                                    </div>
                                     <div className="ml-3">70%</div>
                                 </div>
 
@@ -107,7 +114,8 @@ export default function Home() {
 
                                 <div className="flex flex-row items-center">
                                     <div className="inline-block h-4 flex w-full rounded bg-p_green">
-                                        <div style={{width: "70%"}} className="bg-ph_green"></div></div>
+                                        <div style={{width: "70%"}} className="bg-ph_green"></div>
+                                    </div>
                                     <div className="ml-3">70%</div>
                                 </div>
 
@@ -115,7 +123,8 @@ export default function Home() {
 
                                 <div className="flex flex-row items-center">
                                     <div className="inline-block h-4 flex w-full rounded bg-p_green">
-                                        <div style={{width: "70%"}} className="bg-ph_green"></div></div>
+                                        <div style={{width: "70%"}} className="bg-ph_green"></div>
+                                    </div>
                                     <div className="ml-3">70%</div>
                                 </div>
                                 {/*TODO ここまで*/}
@@ -129,14 +138,46 @@ export default function Home() {
             <div id="values" className="pt-48">
 
                 <div className="flex flex-col md:flex-row justify-center items-center md:ml-16 md:pb-7">
-                    <h3 className=" text-3xl font-sans font-bold text-t_black">価値観</h3>
+                    <h4 className=" text-3xl font-sans font-bold text-t_black">価値観</h4>
                     <span className="font-lato font-bold text-t_green md:ml-3 text-xl">VALUES</span>
                 </div>
 
+                <ul className="shadow-sm flex flex-col md:flex-row mx-32 justify-center divide-x divide-d_green py-16">
+                    <li className="flex flex-col px-7">
+                        <Image src={value_1} quality={75} alt="価値観01"  className="object-contain"/>
+                        <div className="text-center text-t_black font-bold text-xl py-5">価値観01</div>
+                        <p>
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        </p>
+                    </li>
+                    <li className="flex flex-col px-7">
+                        <Image src={value_2} quality={75} alt="価値観02" className="object-contain"/>
+                        <div className="text-center text-t_black font-bold text-xl py-5">価値観02</div>
+                        <p className="text-t_black">
+                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                        </p>
+                    </li>
 
+                    <li className="flex flex-col px-7">
+                        <Image src={value_3} quality={75} alt="価値観03" className="object-contain"/>
+                        <div className="">
+                            <div className="text-center text-t_black font-bold text-xl py-5">価値観03</div>
+                            <p className="text-t_black">
+                                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                            </p>
+                        </div>
+                    </li>
+                </ul>
             </div>
 
             <div id="future">
+
+                <div className="flex flex-col md:flex-row justify-center items-center md:ml-16 md:pb-7">
+                    <h4 className=" text-3xl font-sans font-bold text-t_black">3年後にやりたいこと</h4>
+                    <span className="font-lato font-bold text-t_green md:ml-3 text-xl">FUTURE</span>
+                </div>
+
+
 
             </div>
 
