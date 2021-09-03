@@ -11,6 +11,7 @@ module.exports = {
                 'b-footer': '#262c3a',
                 'p_green': "#c5eaea",
                 'ph_green': "#2bb9ba",
+                'd_green': "#c5eaea",
                 'white': '#ffffff',
             },
             backgroundImage: (theme) =>({
