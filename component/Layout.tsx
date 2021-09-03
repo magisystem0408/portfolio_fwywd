@@ -8,7 +8,7 @@ import logo from "../public/logo.png"
 export default function Layout({children, title = "自己紹介"}) {
     const navItem = ["about", 'skills', 'values', 'future']
     return (
-        <div className="md:container md:mx-auto">
+        <div className="">
             <Head>
                 <title>{title}</title>
             </Head>

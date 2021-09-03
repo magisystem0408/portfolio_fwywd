@@ -6,56 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d91ddff8-de75-4b7d-bc21-d8b5f8934940" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/77UTd80WDvqnRwr9lPB8ItEM8OPVtJ6fe2aMWsSSrAk=/0.1630517052105.LE57krweCaMgvG46PVT+aTbonNawPl5V4gMk9gK+xjo=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/images/m0qnNl14ttgrv3lXs47nS24a28AzrD7Bzo8Oj9fHNg8=/0.1630517052062.LE57krweCaMgvG46PVT+aTbonNawPl5V4gMk9gK+xjo=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/0.pack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/1.pack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/2.pack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/3.pack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/4.pack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/5.pack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/6.pack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/7.pack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/8.pack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development/index.pack.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/0.pack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/1.pack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/2.pack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/3.pack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/4.pack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/cache/webpack/server-development/index.pack.old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/react-loadable-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/component_utils_ScrollRevealContainer_tsx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages/_app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages/_document.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages/_error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages/next/dist/pages/_error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/webpack-runtime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/amp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/component_utils_ScrollRevealContainer_tsx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/node_modules_next_dist_client_dev_noop_js.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/_app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/_error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/next/dist/pages/_error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/polyfills.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/react-refresh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/webpack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/development/_buildManifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/development/_ssgManifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/image/public/about-1.06f0dabb6878952a0fc1aa333fe4f85d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/image/public/about-2.f2fc427addb3612ca6b15efb4088bc81.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/image/public/about-3.da03481efa7c5866490b840053ea3445.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/image/public/hero.c66a7c810a1b8d34392c7ebb31864137.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/image/public/logo.30b2a601e3b5108c48472e3fffa4ffbd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/component/Layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
