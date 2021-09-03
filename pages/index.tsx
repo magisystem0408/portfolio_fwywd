@@ -32,12 +32,12 @@ export default function Home() {
 
             <div id="about" className="md:bg-bg_pc_about bg-cover bg-no-repeat pb-72">
 
-                <div className="flex items-center justify-center py-14">
-                    <h2 className=" text-3xl font-sans font-bold text-t_black">私たちについて</h2>
+                <div className="flex flex-col md:flex-row items-center justify-center py-5 md:py-14">
+                    <h2 className=" text-3xl font-sans font-bold text-t_black">私について</h2>
                     <span className="text-t_green font-lato font-bold ml-2 text-xl">About</span>
                 </div>
 
-                <div className="flex flex-col  md:flex-row justify-center mx-8 md:mx-32">
+                <div className="flex flex-col  md:flex-row justify-center md:mx-8 md:mx-32">
                     <div className="flex flex-col items-center md:mx-1">
                         <Image src={about_1} alt="趣味" className="object-contain" quality={75}/>
                         <div className="font-bold text-2xl text-t_green my-3">趣味</div>
