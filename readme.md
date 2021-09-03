@@ -10,3 +10,14 @@
 - アニメーション実装
   - https://qiita.com/uwattotaitai/items/5957eda0c63634fbaa56
     - 注意点としてssr:falseにする必要がある。
+
+
+
+
+## 気づいたこと
+- レスポンシブの時に考える
+
+
+## 発生した事象
+- tsxをビルドした時、レイアウトが崩れる問題
+- tailwindの背景のimageを登録した時に、publicを入れると読み込まれない

@@ -1,6 +1,5 @@
 import Image from 'next/image'
-import 'tailwindcss/tailwind.css'
-import Layout from "../component/Layout";
+import Layout from "../components/Layout";
 import dynamic from "next/dynamic";
 import hero from "../public/hero.png"
 import about_1 from "../public/about-1.png"
@@ -10,7 +9,7 @@ import about_3 from "../public/about-3.png"
 import skill from "../public/skill.png"
 
 const ScrollRevealContainer = dynamic(
-    import('../component/utils/ScrollRevealContainer'), {ssr: false,});
+    import('../components/utils/ScrollRevealContainer'), {ssr: false,});
 
 export default function Home() {
 
