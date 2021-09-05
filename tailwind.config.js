@@ -17,6 +17,7 @@ module.exports = {
             backgroundImage: (theme) =>({
                 "bg_pc_about": "url('/bg-about.png')",
                 "bg_pc_skills":"url('/bg-skills.png')",
+                "bg_pc_future":"url('/bg-future.png')",
             }),
             fontFamily: {
                 lato: ["Lato"],
