@@ -139,13 +139,13 @@ export default function Home() {
 
                 <div className="flex flex-col md:flex-row justify-center items-center md:ml-16 md:pb-7">
                     <h4 className=" text-3xl font-sans font-bold text-t_black">価値観</h4>
-                    <span className="font-lato font-bold text-t_green md:ml-3 text-xl">VALUES</span>
+                    <span className="text-t_green font-lato font-bold md:ml-3 text-xl">VALUES</span>
                 </div>
 
-                <ul className="shadow-sm flex flex-col md:flex-row mx-32 justify-center divide-x divide-d_green py-16">
-                    <li className="flex flex-col px-7">
-                        <Image src={value_1} quality={75} alt="価値観01"  className="object-contain"/>
-                        <div className="text-center text-t_black font-bold text-xl py-5">価値観01</div>
+                <ul className="inline-flex bg-white shadow-sm flex-col md:flex-row md:mx-32 py-7 divide-x-2 divide-d_green justify-center">
+                    <li className=" flex flex-col px-7">
+                        <Image src={value_1} quality={75} alt="価値観01" className="object-contain"/>
+                        <div className=" text-center text-t_black font-bold text-xl py-5">価値観01</div>
                         <p>
                             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                         </p>
@@ -157,7 +157,6 @@ export default function Home() {
                             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                         </p>
                     </li>
-
                     <li className="flex flex-col px-7">
                         <Image src={value_3} quality={75} alt="価値観03" className="object-contain"/>
                         <div className="">
@@ -170,13 +169,18 @@ export default function Home() {
                 </ul>
             </div>
 
-            <div id="future">
+            {/* todo ここに背景を入れる   */}
+            <div id="future" className=" bg-bg_pc_future  bg-cover bg-no-repeat -my-80 ">
 
-                <div className="flex flex-col md:flex-row justify-center items-center md:ml-16 md:pb-7">
-                    <h4 className=" text-3xl font-sans font-bold text-t_black">3年後にやりたいこと</h4>
-                    <span className="font-lato font-bold text-t_green md:ml-3 text-xl">FUTURE</span>
+
+                <div className="md:mx-32 md:py-96">
+
+                    <div className="flex flex-col md:flex-row justify-center items-center md:ml-16 md:pb-7">
+                        <h4 className=" text-3xl font-sans font-bold text-t_black">3年後にやりたいこと</h4>
+                        <span className="font-lato font-bold text-t_green md:ml-3 text-xl">FUTURE</span>
+                    </div>
+
                 </div>
-
 
 
             </div>
