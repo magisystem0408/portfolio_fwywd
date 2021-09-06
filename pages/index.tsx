@@ -19,6 +19,9 @@ const ScrollRevealContainer = dynamic(
 
 export default function Home() {
     const test = false
+    const neko = () => {
+        return window.parent.screen.width
+    }
 
     return (
         <Layout>
@@ -190,17 +193,8 @@ export default function Home() {
                         </div>
 
                         <div className="md:-mt-20">
-                            <div className="md:visible">
-                                {
-                                    screen.width >= 768 ? (
-                                        <Image src={future} quality={100} alt="スキル" width={screen.width} height={1500}
-                                               className="object-contain"/>
-                                    ) : (
-                                        <Image src={future} quality={100} alt="スキル" width={screen.width}
-                                               className="object-contain"/>
-                                    )
-                                }
-                            </div>
+                            <Image src={future} quality={100} alt="スキル" width={1500} height={1500}
+                                   className="object-contain"/>
                         </div>
                     </div>
                 </div>

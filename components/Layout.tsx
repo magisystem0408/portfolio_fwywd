@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 import {Link as Scroll} from 'react-scroll';
 import logo from "../public/logo.png"
@@ -39,13 +40,12 @@ export default function Layout({children, title = "自己紹介"}) {
                         </div>
 
                         <div className="mx-auto -mt-9">
-                            <a href="/" className="pr-6">お問い合わせ</a>
-                            <a href="/">助成金</a>
+                            <Link href="/"><a>お問い合わせ</a></Link>
+                            <Link href="/"><a className="pr-6">助成金</a></Link>
                         </div>
-                        <div className="mx-auto mt-2
-                        ">
-                            <a href="/" className="pr-6">特定商品取引法に基づく表記</a>
-                            <a href="/">プライバシーポリシー</a>
+                        <div className="mx-auto mt-2">
+                            <Link href="/"><a className="pr-6">特定商品取引法に基づく表記</a></Link>
+                            <Link href="/"><a>プライバシーポリシー</a></Link>
                         </div>
                     </div>
                 </div>
@@ -53,9 +53,11 @@ export default function Layout({children, title = "自己紹介"}) {
                 <Image src={logo_white} quality={75} width={150} height={150} className="object-contain"/>
 
                 <div className="py-6 flex-row flex">
-                        <Image src={twitter} quality={100} alt="twitter" width={30} height={30} className=" object-contain"/>
-                        <div className="px-2" />
-                        <Image src={facebook} quality={100} alt="facebook" width={30} height={30} className="object-contain"/>
+                    <Image src={twitter} quality={100} alt="twitter" width={30} height={30}
+                           className=" object-contain"/>
+                    <div className="px-2"/>
+                    <Image src={facebook} quality={100} alt="facebook" width={30} height={30}
+                           className="object-contain"/>
                 </div>
                 <span className="tracking-widest text-xs inline-block mb-6">&copy;2021 KIKAGAKU</span>
             </footer>
