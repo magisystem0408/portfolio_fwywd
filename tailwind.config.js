@@ -17,10 +17,13 @@ module.exports = {
             backgroundImage: (theme) =>({
                 "bg_pc_about": "url('/bg-about.png')",
                 "bg_pc_skills":"url('/bg-skills.png')",
+                "bg_pc_skills_sp":"url('/bg-skills-sp.png')",
                 "bg_pc_future":"url('/bg-future.png')",
+                "bg_pc_future_sp":"url('/bg-future-sp.png')",
             }),
             fontFamily: {
                 lato: ["Lato"],
+                note:["Noto Sans JP"]
             },
         },
     },
