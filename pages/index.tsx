@@ -1,42 +1,24 @@
 import Image from 'next/image'
 import Layout from "../components/Layout";
-import dynamic from "next/dynamic";
-import hero from "../public/hero.png"
-import about_1 from "../public/about-1.png"
-import about_2 from "../public/about-2.png"
-import about_3 from "../public/about-3.png"
 
-import value_1 from "../public/value1.png"
-import value_2 from "../public/value2.png"
-import value_3 from "../public/value3.png"
-
-import skill from "../public/skill.png"
 import future from "../public/future.png"
 
 
-const ScrollRevealContainer = dynamic(
-    import('../components/utils/ScrollRevealContainer'), {ssr: false,});
-
 export default function Home() {
-    const test = false
-    const neko = () => {
-        return window.parent.screen.width
-    }
-
     return (
         <Layout>
             <div id="main_view"
-                 className="flex flex-col md:flex-row md:justify-between py-6 px-8 tracking-widest w-full bg-b-header">
-                <div
-                    className="flex flex-col items-center md:items-start font-bold text-white my-auto md:ml-20 mx-auto">
+                 className="flex flex-col md:flex-row md:justify-between py-6 px-3 tracking-widest w-full bg-b-header">
+                    <div
+                        className="flex flex-col items-center md:items-start font-bold text-white my-auto md:ml-20 mx-auto">
 
-                    {/*TODO ここにアニメーション*/}
-                    {/*<ScrollRevealContainer move="right">*/}
-                    <h1 className="font-note text-2xl md:text-3xl md:text-4xl md:mb-5">メインタイトル</h1>
-                    <p className="font-note opacity-80 md:text-xl md:text-2xl">サブタイトル</p>
-                    {/*</ScrollRevealContainer>*/}
-                </div>
-                <Image src={hero} className="bg-no-repeat object-contain" quality={75}/>
+                        <h1 className="font-note text-2xl md:text-3xl md:text-4xl md:mb-5">メインタイトル</h1>
+                        <p className="font-note opacity-80 md:text-xl md:text-2xl">サブタイトル</p>
+                    </div>
+                <Image src="https://res.cloudinary.com/do3sqyd6d/image/upload/v1630951958/fwywd/lp/hero_b8xxob.png"
+                       width={800}
+                       height={500}
+                       className="bg-no-repeat object-contain" quality={75}/>
             </div>
 
             <div id="about" className=" md:bg-bg_pc_about bg-cover bg-no-repeat pb-48">
@@ -49,7 +31,10 @@ export default function Home() {
 
                 <div className="flex flex-col md:flex-row justify-center md:mx-8 md:mx-32 font-note">
                     <div className="flex flex-col items-center md:mx-1 pb-5 md:pb-0">
-                        <Image src={about_1} alt="趣味" className="object-contain" quality={75}/>
+                        <Image
+                            src="https://res.cloudinary.com/do3sqyd6d/image/upload/v1630951557/fwywd/lp/about-1_zicsmt.png"
+                            width={200} height={200}
+                            alt="趣味" className="object-contain" quality={75}/>
                         <div className="font-bold text-2xl text-t_green my-3">趣味</div>
                         <p className="md:items-start px-6 md:px-10 text-sm md:text-xl">
                             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
@@ -57,7 +42,10 @@ export default function Home() {
                     </div>
 
                     <div className="flex flex-col items-center md:mx-1 pb-5">
-                        <Image src={about_2} alt="好きな食べ物" className="object-contain" quality={75}/>
+                        <Image
+                            src="https://res.cloudinary.com/do3sqyd6d/image/upload/v1630951557/fwywd/lp/about-2_tsjpcx.png"
+                            width={200} height={200}
+                            alt="好きな食べ物" className="object-contain" quality={75}/>
                         <div className="font-bold text-2xl text-t_green my-3">好きな食べ物</div>
                         <p className="md:items-start px-6 md:px-10 text-sm md:text-xl">
                             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
@@ -65,7 +53,10 @@ export default function Home() {
                     </div>
 
                     <div className="flex flex-col items-center md:mx-1 pb-5">
-                        <Image src={about_3} alt="性格" className="object-contain" quality={75}/>
+                        <Image
+                            src="https://res.cloudinary.com/do3sqyd6d/image/upload/v1630951557/fwywd/lp/about-3_urztjr.png"
+                            width={240} height={200}
+                            alt="性格" className="object-contain" quality={75}/>
                         <div className="font-bold text-2xl text-t_green my-3">性格</div>
                         <p className="md:items-start px-6 md:px-10 text-sm md:text-xl">
                             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
@@ -85,7 +76,8 @@ export default function Home() {
 
                     <div className="flex flex-col md:flex-row mx-6 md:mx-20 md:mx-0">
                         <div className="-mt-7 md:-mt-16">
-                            <Image src={skill} quality={100} alt="スキル" width={2000} height={2000}
+                            <Image src="https://res.cloudinary.com/do3sqyd6d/image/upload/v1630952534/fwywd/lp/skill_chdoyu.png"
+                                   quality={100} alt="スキル" width={2000} height={2000}
                                    className=" object-contain"/>
                         </div>
 
@@ -151,7 +143,12 @@ export default function Home() {
 
                 <ul className="text-t_black font-note inline-flex bg-white shadow flex-col md:flex-row mx-5 md:mx-32 py-7 md:divide-x-2 divide-d_green justify-center">
                     <li className=" flex flex-col pb-7 md:pb-0">
-                        <Image src={value_1} quality={75} alt="価値観01" className="object-contain"/>
+                        <Image
+                            src="https://res.cloudinary.com/do3sqyd6d/image/upload/v1630951028/fwywd/lp/value1_k7jpre.png"
+                            quality={75} alt="価値観01"
+                            width={200}
+                            height={200}
+                            className="object-contain"/>
                         <div className=" text-center text-t_black font-bold text-xl py-3 md:py-5">価値観01</div>
                         <p className="text-sm md:text-xl px-4">
                             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
@@ -159,14 +156,22 @@ export default function Home() {
                     </li>
 
                     <li className="flex flex-col pb-7 md:pb-0">
-                        <Image src={value_2} quality={75} alt="価値観02" className="object-contain"/>
+                        <Image
+                            src="https://res.cloudinary.com/do3sqyd6d/image/upload/v1630951028/fwywd/lp/value2_wpjffn.png"
+                            quality={75} alt="価値観02"
+                            width={200} height={200}
+                            className="object-contain"/>
                         <div className="text-center text-t_black font-bold text-xl py-3 md:py-5">価値観02</div>
                         <p className="text-sm md:text-xl px-4">
                             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
                         </p>
                     </li>
                     <li className="flex flex-col">
-                        <Image src={value_3} quality={75} alt="価値観03" className="object-contain"/>
+                        <Image
+                            src="https://res.cloudinary.com/do3sqyd6d/image/upload/v1630951028/fwywd/lp/value3_hvgxd8.png"
+                            quality={75} alt="価値観03"
+                            width={200} height={200}
+                            className="object-contain"/>
                         <div className="">
                             <div className="text-center text-t_black font-bold text-xl py-3 md:py-5">価値観03</div>
                             <p className="text-sm md:text-xl px-4">

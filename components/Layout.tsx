@@ -18,7 +18,7 @@ export default function Layout({children, title = "自己紹介"}) {
             </Head>
             <header className="flex flex-col mb-1 md:mb-0 md:flex-row items-center md:justify-between md:px-3">
                 <Image src={logo}
-                       alt="ロゴ" width={160} height={80} className="object-contain"/>
+                       alt="logo" width={160} height={80} className="object-contain"/>
                 <nav>
                     <div className="text-t_green font-lato font-bold space-x-6 md:space-x-8 sm:text-sm md:text-xl">
                         {navItem.map((item, index) => {
