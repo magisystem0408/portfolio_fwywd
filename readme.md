@@ -1,6 +1,11 @@
 ## こちらの課題について取り組ませていただきました。
 - https://fwywd.com/news/recruitment-1st
 
+## 対応サイズ
+  - デスクトップ
+  - モバイル
+※ ipad版は対応していません
+
 ## チェックリスト
 - https://fwywd.com/blog/website-checklist
 
@@ -11,9 +16,7 @@
   - https://qiita.com/uwattotaitai/items/5957eda0c63634fbaa56
     - 注意点としてssr:falseにする必要がある。
 
-
-
-
+  
 ## 気づいたこと
 - レスポンシブの時に考える
 
