@@ -5,8 +5,8 @@ import Link from "next/link";
 import {Link as Scroll} from 'react-scroll';
 import logo from "../public/logo.png"
 import logo_white from "../public/logo_white.png"
-import twitter from "../public/twitter.png"
-import facebook from "../public/facebook.png"
+import twitter from "../public/twitter.svg"
+import facebook from "../public/facebook.svg"
 
 
 export default function Layout({children, title = "自己紹介"}) {
@@ -54,7 +54,7 @@ export default function Layout({children, title = "自己紹介"}) {
 
                 <div className="py-6 flex-row flex">
                     <Image src={twitter} quality={100} alt="twitter" width={30} height={30}
-                           className=" object-contain"/>
+                           className="object-contain"/>
                     <div className="px-2"/>
                     <Image src={facebook} quality={100} alt="facebook" width={30} height={30}
                            className="object-contain"/>
