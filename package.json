@@ -27,6 +27,7 @@
   "devDependencies": {
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.0",
+    "moment-locales-webpack-plugin": "^1.2.0",
     "next-sitemap": "^1.6.164"
   }
 }
